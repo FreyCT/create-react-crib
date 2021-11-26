@@ -6,8 +6,8 @@ template meant to help improve productivity and motivation towards building new 
 ## Overview
 
 - Redux (in progress)
-- CSS/SCSS
-- WebPack
+- CSS/SCSS (in progress)
+- WebPack (in progress)
 
 ## How to use
 
