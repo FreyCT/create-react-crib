@@ -1,0 +1,28 @@
+{
+  "name": "create-react-crib",
+  "version": "1.0.0",
+  "description": "template for react projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "webpack",
+    "dev": "concurrently \"cross-env NODE_ENV=development webpack serve --open --hot --inline --progress --content-base ./\" \"nodemon ./server/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreyCT/create-react-crib.git"
+  },
+  "keywords": [
+    "template",
+    "npx",
+    "react",
+    "crib",
+    "startpack"
+  ],
+  "author": "FreyCT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreyCT/create-react-crib/issues"
+  },
+  "homepage": "https://github.com/FreyCT/create-react-crib#readme"
+}
