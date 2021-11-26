@@ -1,5 +1,6 @@
 # create-react-crib
 
+I always found it tedious setting up my development environment from scratch so I created this
 template meant to help improve productivity and motivation towards building new projects.
 
 ## Overview
