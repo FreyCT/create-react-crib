@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/server.js",
     "build": "webpack",
-    "dev": "concurrently \"cross-env NODE_ENV=development webpack serve --open --hot --inline --progress --content-base ./\" \"nodemon ./server/server.js\""
+    "dev": "concurrently \"cross-env NODE_ENV=development webpack serve --open --hot --progress\" \"nodemon ./server/server.js\""
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,40 @@
   "bugs": {
     "url": "https://github.com/FreyCT/create-react-crib/issues"
   },
-  "homepage": "https://github.com/FreyCT/create-react-crib#readme"
+  "homepage": "https://github.com/FreyCT/create-react-crib#readme",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/runtime": "^7.16.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "concurrently": "^6.4.0",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^6.0.2",
+    "react-router-dom": "^6.0.2",
+    "webpack": "^5.64.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.5.1",
+    "dotenv": "^10.0.0",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15",
+    "react-hot-loader": "^4.13.0",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-combine-loaders": "^2.0.4",
+    "webpack-dev-server": "^4.6.0"
+  }
 }
