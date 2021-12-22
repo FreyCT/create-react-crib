@@ -7,4 +7,4 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-module.hot.accept();
+module.hot.accept();    
