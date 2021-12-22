@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(0, 255, 234);
+}
+
+#root {
+    padding-top: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    width:inherit;
+}
+

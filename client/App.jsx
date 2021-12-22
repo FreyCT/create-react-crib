@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import styles from './styles/styles';
 /*
 need to apply style sheets and add a background to helloworld.
 Hello world needs to be in the center of the screen and font size increased
@@ -14,9 +15,13 @@ export default function App(){
         if(template === 'Hello World') {
             convert('Goodbye World');
         } else {
-            convert('Hello World')
+            convert('Hello World');
         }
+
+        document.body.style.backgroundColor = `rgb(${rgb()}, ${rgb()}, ${rgb()})`;
     }
+
+    const rgb = () => Math.floor(Math.random() * 256);
 
     return (
         <div>
