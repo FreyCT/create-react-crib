@@ -6,13 +6,21 @@ template meant to help improve productivity and motivation towards building new 
 ## Overview
 
 - Redux (in progress)
-- CSS/SCSS (in progress)
-- WebPack (in progress)
+- CSS/SCSS
+- WebPack
 
 ## How to use
 
 1. Create a project directory
 2. cd "your project"
+3. install the template with npx create-react-crib
+4. npm install
+5. Start coding! 😊
+
+## How to use
+
+1. Open a console in the folder you want to create your project.
+2. npx @freyct/create-react-crib
 3. install the template with npx create-react-crib
 4. npm install
 5. Start coding! 😊
