@@ -3,7 +3,7 @@ body {
 }
 
 #root {
-    padding-top: 30%;
+    padding-top: 20%;
     margin: auto;
     text-align: center;
 }
@@ -11,4 +11,3 @@ body {
 h2 {
     width:inherit;
 }
-

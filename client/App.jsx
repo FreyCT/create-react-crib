@@ -7,7 +7,7 @@ export default function App(){
 
     const clickHandler = () => {
         if(template === 'Hello World') {
-            convert('Good World');
+            convert('React Template');
         } else {
             convert('Hello World');
         }
