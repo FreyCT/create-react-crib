@@ -1,6 +1,6 @@
 {
   "name": "@freyct/create-react-crib",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "template for react projects",
   "bin": "./bin/cli.js",
   "main": "index.js",
